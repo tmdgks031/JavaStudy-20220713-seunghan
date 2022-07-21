@@ -26,10 +26,13 @@ public class String1 {
 		
 		String phoneNumbers = "010/9988/1916, 010/1234/5678";
 		String rePhone = phoneNumbers.replaceAll("010", "011");
+		
 		System.out.println(rePhone);
 		rePhone = rePhone.replaceAll("/" , "-");
-		System.out.println(rePhone);
+		
+		System.out.println(rePhone);		
 		rePhone = rePhone.replaceAll(",", "/");
+		
 		System.out.println(rePhone);
 				
 		String rePhone2 = phoneNumbers.replaceAll("010", "011")
