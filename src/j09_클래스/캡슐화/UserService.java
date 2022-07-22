@@ -43,8 +43,8 @@ public class UserService {
 		}
 	}
 	
-	public boolean isStrBlank(String str) {
-		return str == null || str.isBlank();
+	private boolean isStrBlank(String str) {
+		return str == null || str.trim().isEmpty();
 	}
 	
 }
