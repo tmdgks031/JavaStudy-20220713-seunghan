@@ -11,4 +11,10 @@ public class Car {
 	private String company;
 	private String model;
 	private String color;
+	public static Object builder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
 }
