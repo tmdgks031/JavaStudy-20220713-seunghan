@@ -9,6 +9,8 @@ public class Student {
 	
 	private int studentCode;
 	private String name;
+
+	public Object getName;
 	
 	public Student(String name) {
 		studentCode = ++autoCode;
