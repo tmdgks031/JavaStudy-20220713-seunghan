@@ -33,6 +33,14 @@ public class StringMap {
 		while(irKey.hasNext()) {
 			System.out.println(strMap.get(irKey.next()));
 		}
+		
+		strMap.entrySet().forEach(arg -> {
+			System.out.println(arg);
+			System.out.println(arg.getKey());
+			System.out.println(arg.getValue());
+		});
+		
+		
 	}
 
 }
