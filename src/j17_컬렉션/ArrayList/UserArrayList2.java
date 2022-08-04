@@ -42,18 +42,7 @@ public class UserArrayList2 {
 	}
 	
 	public void PrintUserlist() {
-		// userList 반환
-				/*
-				 * 아이디	> aaa 
-				 * 비밀번호 > 1234 
-				 * 이름 	> 김준일 
-				 * 이메일	> aaa@naver.com
-				 * 
-				 * 아이디 	> bbb 
-				 * 비밀번호 > 1234 
-				 * 이름 	> 김준일 
-				 * 이메일 	> bbb@naver.com
-				 */
+		
 		for(User user : userList) {
 			
 		
@@ -96,14 +85,6 @@ public class UserArrayList2 {
 	public static void main(String[] args) {
 		
 		UserArrayList2 userArrayList2 = new UserArrayList2();
-		/*
-		 * [ 사용자 관리 프로그램]
-		 * 1.사용자추가
-		 * 2.사용자 리스트 출력
-		 * 3.사용자 삭제
-		 * q.프로그램 종료
-		 * 
-		 */
 		
 		while(true) {
 			String select = null;
