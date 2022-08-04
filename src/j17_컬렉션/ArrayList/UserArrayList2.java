@@ -62,6 +62,7 @@ public class UserArrayList2 {
 		System.out.println("이름\t > " + user.getName());
 		System.out.println("이메일\t > " + user.getEmail());
 		System.out.println();
+		
 		}
 	}
 	
