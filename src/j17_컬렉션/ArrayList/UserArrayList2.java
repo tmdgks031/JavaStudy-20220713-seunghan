@@ -25,6 +25,7 @@ public class UserArrayList2 {
 		System.out.println("아이디: ");
 		username = scanner.nextLine();
 		System.out.println("비밀번호: ");
+		
 		password = scanner.nextLine();
 		System.out.println("이름: ");
 		name = scanner.nextLine();

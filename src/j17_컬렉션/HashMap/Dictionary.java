@@ -30,7 +30,7 @@ public class Dictionary {
 		Scanner scanner = new Scanner(System.in);
 		
 		String searchText = null;
-		
+		 
 		while(true) {
 			System.out.println("[사전 검색 기능]");
 			System.out.println("# 프로그램 종료명령(exit)");
