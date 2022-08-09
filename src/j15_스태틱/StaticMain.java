@@ -6,6 +6,7 @@ public class StaticMain {
 		StaticTest.name = "김준일";
 		StaticTest.printTest();
 		
+		
 		StaticTest staticTest = new StaticTest();
 //		staticTest.name = "김준일";
 		
@@ -17,6 +18,8 @@ public class StaticMain {
 //		System.out.println(staticTest2.name);
 //		
 //		System.out.println(staticTest.name);
+		
+		
 
 	}
 

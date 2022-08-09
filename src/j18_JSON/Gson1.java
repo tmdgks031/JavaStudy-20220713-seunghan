@@ -15,6 +15,7 @@ public class Gson1 {
 		Gson gson1 = new Gson();
 		
 		
+		
 		// 2. GsonBuilder() 생성자를 통해 생성
 		Gson gson2 = new GsonBuilder().create();
 		

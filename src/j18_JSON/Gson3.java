@@ -29,7 +29,7 @@ public class Gson3 {
 		Map<String, Object> mapObj = gson.fromJson(mapJson, Map.class);
 		
 		System.out.println(mapObj);
-		
+		 
 		System.out.println(mapObj.get("code"));
 		
 		Double d = 3.14;

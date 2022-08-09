@@ -6,5 +6,4 @@ import lombok.Data;
 public class GenericTest<K, V> {
 	private K key;
 	private V value;
-	
 }
